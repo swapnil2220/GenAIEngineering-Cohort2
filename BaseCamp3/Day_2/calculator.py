@@ -4,6 +4,10 @@ import json
 
 st.title("Calculator App")
 st.write("This app connects to a FastAPI calculator service.")
+st.write("# -------------------------------------------------------------------")
+st.write("# © 2025 Swapnil Shrivastava. All rights reserved.")
+st.write("# Licensed under the MIT License.")
+
 
 # Define the API base URL
 api_url = "https://genaiengineering-cohort2-26zk.onrender.com/"
@@ -122,7 +126,11 @@ with col2:
     st.button(".", on_click=lambda: setattr(st.session_state, 'display',
               st.session_state.display + '.' if '.' not in st.session_state.display else st.session_state.display),
               use_container_width=True)
-with col3, col4:
+with col3:
+    # Span the "=" button across two columns
+    st.button("Multiply (*)", on_click=operation_click, args=("multiply",), use_container_width=True)
+    
+with col4:
     # Span the "=" button across two columns
     st.button("=", on_click=calculate_result, use_container_width=True)
 
