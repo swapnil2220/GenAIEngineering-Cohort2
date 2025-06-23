@@ -22,7 +22,8 @@ if name:
 
 # Number input
 age = st.number_input("How old are you?", min_value=0, max_value=120, step=1)
-st.write(f"You are {age} years old.")
+if age:
+    st.write(f"You are {age} years old.")
 
 # Slider
 height = st.slider("Select your height (in cm)", 100, 220, 170)
