@@ -11,6 +11,7 @@ st.write("# Licensed under the MIT License.")
 
 # Define the API base URL
 api_url = "https://genaiengineering-cohort2-26zk.onrender.com/"
+api_url = "https://genaiengineering-cohort2-26zk.onrender.com/"
 
 # Initialize session state to store the calculator display and current operation
 if 'display' not in st.session_state:
