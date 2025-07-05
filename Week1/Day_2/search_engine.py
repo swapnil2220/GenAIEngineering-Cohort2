@@ -50,7 +50,7 @@ async def chunk_pdf(pdf_file_path,num_chunks= 5):
 
 
 
-def embed_text_chunks(chunks, embedding_model_name="all-MiniLM-L6-v2"):
+def embed_text_chunks(chunks, embedding_model_name="all-MiniLM-L12-v2"):
 
     model = SentenceTransformer(embedding_model_name)
     # print(model)
@@ -64,7 +64,7 @@ def build_faiss_index():
     print(files)
     df = pd.concat((pd.read_csv(f) for f in files), ignore_index=True)
     print(len(df))
-    embedding_model_name = "all-MiniLM-L6-v2"
+    embedding_model_name = "all-MiniLM-L12-v2"
     embeddings = embed_text_chunks(list(df['chunk']), embedding_model_name)
     print('embeddings completed')
     dimension = embeddings.shape[1]
@@ -85,7 +85,7 @@ def build_faiss_index():
 
 @app.post("/search_chunks")
 def search_chunks(search_string):
-    query_embedding = SentenceTransformer('all-MiniLM-L6-v2').encode([search_string], convert_to_numpy=True)
+    query_embedding = SentenceTransformer('all-MiniLM-L12-v2').encode([search_string], convert_to_numpy=True)
     distances, indices = faiss_index.search(query_embedding, k=5)
     files = glob.glob(os.path.join('csv_files', "*.csv"))
     df = pd.concat((pd.read_csv(f) for f in files), ignore_index=True)

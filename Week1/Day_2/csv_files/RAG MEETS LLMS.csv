@@ -1,0 +1,341 @@
+filename,page_number,chunk_number,chunk
+RAG MEETS LLMS.pdf,1,1,"RAG Meets LLM: Towards Retrieval-Augmented Large Language ModelsWenqiFan1, YujuanDin"
+RAG MEETS LLMS.pdf,1,2,"g1, ShijieWang1, LiangboNing1, HengyunLi1, DaweiYin2, Tat-Seng Chua3, and Qing Li11T"
+RAG MEETS LLMS.pdf,1,3,"he Hong Kong Polytechnic University, 2Baidu Inc, 3National University of SingaporeAu"
+RAG MEETS LLMS.pdf,1,4,"gust 25th (Day 1), 10:00-13:00KDD 2024, Barcelona, Spain Website: https://advanced-r"
+RAG MEETS LLMS.pdf,1,5,ecommender-systems.github.io/RAG-Meets-LLMs/Survey: https://arxiv.org/pdf/2405.06211 1
+RAG MEETS LLMS.pdf,2,1,¤Part 1: Introduction of Retrieval Augmented Large Language Models (RA-LLMs) (Dr. W
+RAG MEETS LLMS.pdf,2,2,enqi Fan)¡Part 2: Architecture of RA-LLMs and Main Modules (Dr. YujuanDing)¡Part 3:
+RAG MEETS LLMS.pdf,2,3, Learning ApproachofRA-LLMs (LiangboNing)¡Part 4: Applications ofRA-LLMs (ShijieWan
+RAG MEETS LLMS.pdf,2,4,g)¡Part 5: Challenges and Future Directions of RA-LLMs (Dr. Wenqi Fan)¡Part 6: Q&AW
+RAG MEETS LLMS.pdf,2,5,ebsite of this tutorial Check out the slides and more information!2 Tutorial Outline
+RAG MEETS LLMS.pdf,3,1,Large Language Mo
+RAG MEETS LLMS.pdf,3,2,dels (LLMs) https
+RAG MEETS LLMS.pdf,3,3,://github.com/Han
+RAG MEETS LLMS.pdf,3,4,nibal046/Awesome-
+RAG MEETS LLMS.pdf,3,5,LLM/tree/main T5…… 3
+RAG MEETS LLMS.pdf,4,1,Large Language Mode
+RAG MEETS LLMS.pdf,4,2,ls (LLMs) Input Tex
+RAG MEETS LLMS.pdf,4,3,tGenerated Text ……L
+RAG MEETS LLMS.pdf,4,4,LaMA ChatGPTLarge L
+RAG MEETS LLMS.pdf,4,5,anguage Models (LLMs) 4
+RAG MEETS LLMS.pdf,5,1,"Li et al, 2024, Empowering Molecule Discovery for Molecule-Captio"
+RAG MEETS LLMS.pdf,5,2,"n Translation with Large Language Models: A ChatGPTPerspective,Li"
+RAG MEETS LLMS.pdf,5,3,"u et al., 2024, MolecularGPT: Open Large Language Model (LLM) for"
+RAG MEETS LLMS.pdf,5,4," Few-Shot Molecular Property Prediction,qMolecule discovery, etc."
+RAG MEETS LLMS.pdf,5,5, 5LLMs in Downstream DomainsDomainsEducationHealthcareChemistry……
+RAG MEETS LLMS.pdf,6,1,"qMedical consultation, etc. qCurriculum"
+RAG MEETS LLMS.pdf,6,2," & Teaching, etc. Zhang et al., 2023, H"
+RAG MEETS LLMS.pdf,6,3,"uatuoGPT, towards Taming Language Model"
+RAG MEETS LLMS.pdf,6,4, to Be a Doctor6LLMs in Downstream Doma
+RAG MEETS LLMS.pdf,6,5,insDomainsEducationHealthcareChemistry……
+RAG MEETS LLMS.pdf,7,1,7LLMs on Graph-structur
+RAG MEETS LLMS.pdf,7,2,"ed Data Fan, et al., 20"
+RAG MEETS LLMS.pdf,7,3,"24,Graph Machine Learni"
+RAG MEETS LLMS.pdf,7,4,ng in the Era of Large 
+RAG MEETS LLMS.pdf,7,5,Language Models (LLMs).
+RAG MEETS LLMS.pdf,8,1,8LLMs in Recommender S
+RAG MEETS LLMS.pdf,8,2,"ystems Zhao, et al., 2"
+RAG MEETS LLMS.pdf,8,3,"024, Recommender syste"
+RAG MEETS LLMS.pdf,8,4,ms in the era of large
+RAG MEETS LLMS.pdf,8,5, language models (llms).
+RAG MEETS LLMS.pdf,9,1,"pInconsistencySometimestheynailtheanswertoquestions,othertimestheyregurgitaterandomfactsfromtheirtrainingdata.pPrivacyVario"
+RAG MEETS LLMS.pdf,9,2,"usriskstodataprivacyandsecurityexistatdifferentstagesofLLMs,whichbecomesparticularlyacuteinlightofincidentswheresensitivein"
+RAG MEETS LLMS.pdf,9,3,"ternaldatawasexposedtoLLMs.pHallucination Thegenerationofinaccurate,nonsensical,ordetachedtext,posingpotentialrisksandchall"
+RAG MEETS LLMS.pdf,9,4,engesfororganizationsutilizingthesemodels.pDomain-specific knowledge & expertiseLLMsmightnotperformwellinmanydomain-specifi
+RAG MEETS LLMS.pdf,9,5,"cfieldslikemedicine,law,finance,andmore,becauseofthelackofdomain-specificknowledgeandexpertise.Challenges and Risks of LLMs 9"
+RAG MEETS LLMS.pdf,10,1,"LLMs’ Challenges in Vertical Domains Hallucinations are common acrossall LLMs when they are asked a direct,"
+RAG MEETS LLMS.pdf,10,2, verifiable question about a federal court case In anew studybyStanford RegLabandInstitute for Human-Center
+RAG MEETS LLMS.pdf,10,3,"ed AIresearchers, it is demonstrated that legal hallucinations are pervasive and disturbing:hallucination r"
+RAG MEETS LLMS.pdf,10,4,ates range from 69% to 88% in response to specific legal queries for state-of-the-art language models.qDoma
+RAG MEETS LLMS.pdf,10,5,"inofLaw Dahl M, et al. 2024, Large legal fictions: Profiling legal hallucinations in large language models.10"
+RAG MEETS LLMS.pdf,11,1,Why Large Language Models Work Well?
+RAG MEETS LLMS.pdf,11,2,qBigModel+BigTrainingData Storing kn
+RAG MEETS LLMS.pdf,11,3,owledge in the parametric model !Sto
+RAG MEETS LLMS.pdf,11,4,ring knowledge in the non-parametric
+RAG MEETS LLMS.pdf,11,5, model? Information Retrieval (IR)11
+RAG MEETS LLMS.pdf,12,1,Retrieval-Augmented Large Language Models (RA-LLMs) Spain won theWomen's World Cup2023. Which country won the Women's Wor
+RAG MEETS LLMS.pdf,12,2,"ldCup 2023?Userw/o RAG with RAGPre-trainedLLMsExternalDatabase OutputPromptOutputPromptQuery Additional information:New, "
+RAG MEETS LLMS.pdf,12,3,"Domain-specific, etc.ContextAs of my last updatein January 2022, Ican't provide whichcountry won ... 2023. Hallucination "
+RAG MEETS LLMS.pdf,12,4,& Unable to answerRe-training / Finetuning ?Costly & Heavy WorkRetrieval-Augmented Generation (RAG) for LLM: RA-LLMs qLLM
+RAG MEETS LLMS.pdf,12,5,"scannotmemorizeall(particularlylong-tail)knowledgeintheirparametersqLackofdomain-specificknowledge,updatedinformation,etc 12"
+RAG MEETS LLMS.pdf,13,1,Integrating Information Retrieval in Generation: RA-LLM Information / Knowle
+RAG MEETS LLMS.pdf,13,2,dge retrievalContent generationRA-LLMsExternal Knowledge Base•High-quality k
+RAG MEETS LLMS.pdf,13,3,nowledge•Specialized knowledge•Scalable•Easy-updated Data for Training LLMs•
+RAG MEETS LLMS.pdf,13,4,"Low quality•General •Fixed •Hard to update Close-book exam(Hard mode, have t"
+RAG MEETS LLMS.pdf,13,5,"o remember everything)Open-book exam(Easy mode, allow to search in reference) 13"
+RAG MEETS LLMS.pdf,14,1,RA-LLM Research TaxonomyArchitecture Learning Application Tasks Retr
+RAG MEETS LLMS.pdf,14,2,ieval GenerationAugmentation IndependentSequential Joint RetrieverPr
+RAG MEETS LLMS.pdf,14,3,e-/Post-retrieval techniques NLPDownstream Domain-specific Input-lay
+RAG MEETS LLMS.pdf,14,4,er integrationIntermediate-layer integrationOutput-layer integration
+RAG MEETS LLMS.pdf,14,5,QARecommendations Fact verificationScienceFinanceSoftware engineering14
+RAG MEETS LLMS.pdf,15,1,RAG & RA-LLM Model Development02020192020202120222023No. of Proposed Models 201920202021202220232024RAG Framework/Pi
+RAG MEETS LLMS.pdf,15,2,peline Retriever LearningRAG Learning Pre-/Post-Retrieval TechniqueRAGREALMkNN-LMFiD>1000SE-FiDRETROOpenBookIRCoTDSP
+RAG MEETS LLMS.pdf,15,3,In-ContextRALMFLARASelf-RAGREPLUGAARSKRREFEEDITER-RETGENRADACOMBOToCSlimPLM DPRRAGFiD-KDEPRContrieverFiD-LightCEILUP
+RAG MEETS LLMS.pdf,15,4,RISEITER-RETGENRA-DITSAILRADAREVENREALMEMDR2AtlasRETRORAG-end2endRETRO++Self-RAGPRCA SPALMRe2GHyPER-BM25Query2docDr.
+RAG MEETS LLMS.pdf,15,5,"ICLUDRRECOMPSAILLLM-RPRCASlimPLMBlendFilter[500, 1000)[200, 500)[100, 200)[50, 100)[20, 50)<20Citation QueryRewriter15"
+RAG MEETS LLMS.pdf,16,1,A Comprehensive Survey Paper 
+RAG MEETS LLMS.pdf,16,2,Accepted by KDD’24https://arx
+RAG MEETS LLMS.pdf,16,3,iv.org/pdf/2405.06211 16Websi
+RAG MEETS LLMS.pdf,16,4,te of this tutorial Check out
+RAG MEETS LLMS.pdf,16,5, the slides and more information!
+RAG MEETS LLMS.pdf,17,1,"qOurresearchgroup(Prof.QingLI&Dr.WenqiFAN)isactivelyrecruitingself-motivatedpostdocs,Ph.D.students,"
+RAG MEETS LLMS.pdf,17,2,"researchassistants,etc.Visitingscholars,interns,andself-fundedstudentsarealsowelcome.Sendusanemaili"
+RAG MEETS LLMS.pdf,17,3,"fyouareinterested.vResearchareas:machinelearning(ML),datamining(DM),artificialintelligence(AI),deep"
+RAG MEETS LLMS.pdf,17,4,"learning(DNNs),large language models (LLMs), graphneuralnetworks(GNNs),computervision(CV),naturalla"
+RAG MEETS LLMS.pdf,17,5,"nguageprocessing(NLP),etc.vPositiondetails:https://wenqifan03.github.io/openings.html 17Recruitment"
+RAG MEETS LLMS.pdf,18,1,¤Part 1: Introduction of Retrieval Augmented Large Language Models (RA-LLMs) (Dr
+RAG MEETS LLMS.pdf,18,2,. WenqiFan)¤Part 2: Architecture of RA-LLMs and Main Modules (Dr. YujuanDing)¡Pa
+RAG MEETS LLMS.pdf,18,3,rt 3: Learning ApproachofRA-LLMs (LiangboNing)¡Part 4: Applications ofRA-LLMs (S
+RAG MEETS LLMS.pdf,18,4,hijieWang)¡Part 5: Challenges and Future Directions of RA-LLMs (Dr. WenqiFan)Web
+RAG MEETS LLMS.pdf,18,5,site of this tutorial Check out the slides and more information!18 Tutorial Outline
+RAG MEETS LLMS.pdf,19,1,PART 2: Architecture of RA-LLMs and Main Mo
+RAG MEETS LLMS.pdf,19,2,dules¡RA-LLM architecture overview¡Retrieve
+RAG MEETS LLMS.pdf,19,3,r in RA-LLMs¡Retrieval results integration¡
+RAG MEETS LLMS.pdf,19,4,Pre/Post-retrieval techniques¡Special RA-LL
+RAG MEETS LLMS.pdf,19,5,M paradigmsPresenterDr. YujuanDINGHK PolyU19
+RAG MEETS LLMS.pdf,20,1,RA-LLM Architecture: Standard Pipeline Affiliated modules 
+RAG MEETS LLMS.pdf,20,2,（non necessary）Major components (necessary)Retrieval Gener
+RAG MEETS LLMS.pdf,20,3,ation Pre-retrieval processPost-retrieval processIntegrati
+RAG MEETS LLMS.pdf,20,4,on 20”Which country won the Women’s World Cup 2023””Spain”
+RAG MEETS LLMS.pdf,20,5,qTechnical component illustration in a RA-LLM for the Q&A task
+RAG MEETS LLMS.pdf,21,1,A Simple Retrieval-Augmented Generation Model Le
+RAG MEETS LLMS.pdf,21,2,wis et al. 2020. “Retrieval-Augmented Generation
+RAG MEETS LLMS.pdf,21,3, for Knowledge-Intensive NLP Tasks”Retrieval: DP
+RAG MEETS LLMS.pdf,21,4,R+ MIPSGeneration: BARTIntegration: concatenatin
+RAG MEETS LLMS.pdf,21,5,g each retrieved passage with the question qRAG 21
+RAG MEETS LLMS.pdf,22,1,A Simple Retrieval-Augmented Generation ModelRet
+RAG MEETS LLMS.pdf,22,2,rieval: BM25/BERT/ContrieverGeneration: GPT-seri
+RAG MEETS LLMS.pdf,22,3,esIntegration: prepending the retrieved passage 
+RAG MEETS LLMS.pdf,22,4,"with the input text Ramet al. 2023, In-Context R"
+RAG MEETS LLMS.pdf,22,5,etrieval-Augmented Language ModelsqIn-ContextRALM 22
+RAG MEETS LLMS.pdf,23,1,¡RA-LLM architecture overview¡Retriever in 
+RAG MEETS LLMS.pdf,23,2,RA-LLMs¡Retrieval results integration¡Pre/P
+RAG MEETS LLMS.pdf,23,3,ost-retrieval techniques¡Special RA-LLM par
+RAG MEETS LLMS.pdf,23,4,adigms23Website of this tutorial PART 2: Ar
+RAG MEETS LLMS.pdf,23,5,chitecture of RA-LLMs and Main ModulesSlides
+RAG MEETS LLMS.pdf,24,1,RA-LLM Architecture: Retriever TypesRelevance measureme
+RAG MEETS LLMS.pdf,24,2,ntSparseDense Retriever learningTask-specific pre-train
+RAG MEETS LLMS.pdf,24,3,edGeneral-purpose pre-trained qDifferent types of retri
+RAG MEETS LLMS.pdf,24,4,ever deliver different generation performance Ramet al.
+RAG MEETS LLMS.pdf,24,5," 2023, In-Context Retrieval-Augmented Language Models24"
+RAG MEETS LLMS.pdf,25,1,Dense v.s. Sparse Retrievers Embedding DatabaseQueryChunking/Token
+RAG MEETS LLMS.pdf,25,2,izing/... Indexing Embedding Relevance Scoring Retrieved Results(C
+RAG MEETS LLMS.pdf,25,3,hunks/Documents/Tokens/Entities/..)DatabaseQueryChunking/Tokenizin
+RAG MEETS LLMS.pdf,25,4,g/... Indexing Relevance Scoring Retrieved Results(Chunks/Document
+RAG MEETS LLMS.pdf,25,5,s/Tokens/Entities/..)Sparse Retrievers (SR)Dense Retrievers (DR)25
+RAG MEETS LLMS.pdf,26,1,Embedding DatabaseQueryChunking/Tokenizing/... Indexing Embedding Relevance S
+RAG MEETS LLMS.pdf,26,2,coring Retrieved Results(Chunks/Documents/Tokens/Entities/..)Dense v.s. Spars
+RAG MEETS LLMS.pdf,26,3,e Retrievers DatabaseQueryChunking/Tokenizing/... Indexing Relevance Scoring 
+RAG MEETS LLMS.pdf,26,4,Retrieved Results(Chunks/Documents/Tokens/Entities/..) Sparse Retrievers (SR)
+RAG MEETS LLMS.pdf,26,5," •Feasible to apply•High efficiency•Fine performance•Example: TF-IDF, BM25 26"
+RAG MEETS LLMS.pdf,27,1,Embedding DatabaseQueryChunking/Tokenizing/... Indexing Embedding Relevance Scorin
+RAG MEETS LLMS.pdf,27,2,g Retrieved Results(Chunks/Documents/Tokens/Entities/..)DatabaseQueryChunking/Toke
+RAG MEETS LLMS.pdf,27,3,nizing/... Indexing Relevance Scoring Retrieved Results(Chunks/Documents/Tokens/En
+RAG MEETS LLMS.pdf,27,4,tities/..)Dense v.s. Sparse Retrievers 27 Dense Retrievers (DR)•Allowing fine-tuni
+RAG MEETS LLMS.pdf,27,5,"ng•Better adaptation•Customizable for more retrieval goals•Example: DPR, Contriever"
+RAG MEETS LLMS.pdf,28,1,DatabaseQuery Chunking/Tokenizing/... Indexing Encoder EQ( ) Relevance Scoring sim(
+RAG MEETS LLMS.pdf,28,2,"q, p) Retrieved Results(Chunks/Documents/Tokens/Entities/..) Encoder EP( ) Task-Spe"
+RAG MEETS LLMS.pdf,28,3,cific Pre-trained Retriever (Supervised) Karpukhinet al. 2020. “Dense Passage Retri
+RAG MEETS LLMS.pdf,28,4,"eval for Open-Domain Question Answering”Inner Product Similarity !""#$,&=(!($)""(#(&)"
+RAG MEETS LLMS.pdf,28,5,Two independent BERTsqDensePassageRetriever(DPR):PretrainedforQuestionAnswering(QA) 28
+RAG MEETS LLMS.pdf,29,1,Task-Specific Pre-trained Retriever (Supervised) Karpukhinet al. 2020. 
+RAG MEETS LLMS.pdf,29,2,“Dense Passage Retrieval for Open-Domain Question Answering”•Learning O
+RAG MEETS LLMS.pdf,29,3,bjective•Training data: Question-Passage SetsQuestion Irrelevant passag
+RAG MEETS LLMS.pdf,29,4,esRelevant passage •Training with in-batch negatives qDensePassageRetri
+RAG MEETS LLMS.pdf,29,5,ever(DPR):PretrainedforQuestionAnswering(QA) 29Negative sample selection?
+RAG MEETS LLMS.pdf,30,1,"DatabaseQuery Chunking/Tokenizing/... Indexing Encoder E( ) Relevance Scoring sim(q, p) Retrieved Results(Chunks/Docu"
+RAG MEETS LLMS.pdf,30,2,ments/Tokens/Entities/..)General-Purpose Pre-trained Retriever (Unsupervised) Izacardet al. 2022. “Unsupervised Dense
+RAG MEETS LLMS.pdf,30,3, Information Retrieval with Contrastive Learning” Contrastive learningwith unaligned documentsMight improve robustnes
+RAG MEETS LLMS.pdf,30,4,"s in the context of zero-shot transfer or few-shot learning,while having no impact on other settingsSame BERT encoder"
+RAG MEETS LLMS.pdf,30,5," for queries and documents Inner Product Similarity !""#$,&=(($)""((&)qContriever:Pre-trainedwithunsupervisedlearning 30"
+RAG MEETS LLMS.pdf,31,1,DPR & ContrieverPerformance on OpenQATasks En
+RAG MEETS LLMS.pdf,31,2,d-to-end QA (Exact Match) AccuracyBoth widely
+RAG MEETS LLMS.pdf,31,3," applied in RAG and RA-LLMsDPR inRAG, FiD, RE"
+RAG MEETS LLMS.pdf,31,4,"TRO, EPR, UDR, …ContrieverinSelf-RAG, Atlas, "
+RAG MEETS LLMS.pdf,31,5,"RAVEN, …Both better than the sparse retriever!31"
+RAG MEETS LLMS.pdf,32,1,qSpider (Span-based unsupervised dense retriever)vRecurring Span Retrieval: It is 
+RAG MEETS LLMS.pdf,32,2,based on the notion of recurring spans within a document: given two paragraphs wit
+RAG MEETS LLMS.pdf,32,3,"h the same recurring span, we construct a query from one of the paragraphs, while "
+RAG MEETS LLMS.pdf,32,4,the other is taken as the target for retrieval 32Task-Specific Pre-trained Retriev
+RAG MEETS LLMS.pdf,32,5,"er (Unsupervised) Ram et al., 2022, Learning to Retrieve Passages without Supervision"
+RAG MEETS LLMS.pdf,33,1,33 Task-Specific 
+RAG MEETS LLMS.pdf,33,2,Pre-trained Retri
+RAG MEETS LLMS.pdf,33,3,ever (Unsupervise
+RAG MEETS LLMS.pdf,33,4,d) qLearning and 
+RAG MEETS LLMS.pdf,33,5,results of Spider
+RAG MEETS LLMS.pdf,34,1,Retrievers for In-Context Learning of LLMs Ru
+RAG MEETS LLMS.pdf,34,2,bin et al. 2023. “Learning To Retrieve Prompt
+RAG MEETS LLMS.pdf,34,3,s for In-Context Learning”Ye et al. 2023. “Co
+RAG MEETS LLMS.pdf,34,4,mpositional Exemplars for In-context Learning
+RAG MEETS LLMS.pdf,34,5,” qPromptRetrieverqExamplarRetriever (CEIL) 34
+RAG MEETS LLMS.pdf,35,1,"Search Engine as Retrievers Komeili et al., 2021, Internet-Augmented Dialogue Generatio"
+RAG MEETS LLMS.pdf,35,2,"nJiang et al. 2023, Active Retrieval Augmented Generation35qTraditional retrieval metho"
+RAG MEETS LLMS.pdf,35,3,dsvMay be difficult to update to real-time web documentsvMay be a limit to the number o
+RAG MEETS LLMS.pdf,35,4,f documents storable in the pre-defined databasevWill not take advantage of the high qu
+RAG MEETS LLMS.pdf,35,5,ality ranking that has been finely tuned in Internet Search engines over decades of use
+RAG MEETS LLMS.pdf,36,1,36Website of this tutorial ¡RA-LLM architec
+RAG MEETS LLMS.pdf,36,2,ture overview¡Retriever in RA-LLMs¡Retrieva
+RAG MEETS LLMS.pdf,36,3,l results integration¡Pre/Post-retrieval te
+RAG MEETS LLMS.pdf,36,4,chniques¡Special RA-LLM paradigmsPART 2: Ar
+RAG MEETS LLMS.pdf,36,5,chitecture of RA-LLMs and Main ModulesSlides
+RAG MEETS LLMS.pdf,37,1,Retrieved Results Integration: Input-layer Integration InputRetrieved Re
+RAG MEETS LLMS.pdf,37,2,sults(Chunks/Documents/Tokens/Entities/..) RetrievalGenerator(LLMs)Outpu
+RAG MEETS LLMS.pdf,37,3,t Guuet al. 2020. “REALM: Retrieval-Augmented Language Model Pre-Trainin
+RAG MEETS LLMS.pdf,37,4,"g” Integrating the retrieved passage +and ,the original inputWeighted ag"
+RAG MEETS LLMS.pdf,37,5,gregating the prediction results based on all retrieved passages qREALM 37
+RAG MEETS LLMS.pdf,38,1,Retrie
+RAG MEETS LLMS.pdf,38,2,val-Au
+RAG MEETS LLMS.pdf,38,3,gmente
+RAG MEETS LLMS.pdf,38,4,d Gene
+RAG MEETS LLMS.pdf,38,5,rator 38
+RAG MEETS LLMS.pdf,39,1,Retrieved Results Integration: Ou
+RAG MEETS LLMS.pdf,39,2,tput-layer integration InputRetri
+RAG MEETS LLMS.pdf,39,3,eved Results(Chunks/Documents/Tok
+RAG MEETS LLMS.pdf,39,4,ens/Entities/..) RetrievalGenerat
+RAG MEETS LLMS.pdf,39,5,or(LLMs)OutputGenerated Results 39
+RAG MEETS LLMS.pdf,40,1,RA-LLM Architecture: Output-layer Integration Khandelwal elal. 2019. “Generalization through Memorization: N
+RAG MEETS LLMS.pdf,40,2,earest Neighbor Language Models”Obama was senator for Barack is married to Obama was born in …Obama is a nat
+RAG MEETS LLMS.pdf,40,3,ive of Training contexts Test contexts Obama’s birthplace is?IllinoisMichelleHawaii…Hawaii Targets ?TargetsC
+RAG MEETS LLMS.pdf,40,4,ontext reps Context repsLanguage model predictionContext-based similaritiesHawaiiIllinoisHawaiiIllinois0.80.
+RAG MEETS LLMS.pdf,40,5,20.20.2HawaiiIllinois0.60.2Interpolation qkNN-LM:Combiningretrievedprobabilitiesandpredictedonesingeneration 40
+RAG MEETS LLMS.pdf,41,1,Retrieved Results Integration: Intermediate-laye
+RAG MEETS LLMS.pdf,41,2,r Integration InputRetrieved Results(Chunks/Docu
+RAG MEETS LLMS.pdf,41,3,ments/Tokens/Entities/..) RetrievalGenerator(LLM
+RAG MEETS LLMS.pdf,41,4,s)OutputBorgeaud et al. 2022. Improving Language
+RAG MEETS LLMS.pdf,41,5, Models by Retrieving from Trillions of Tokens41
+RAG MEETS LLMS.pdf,42,1,Retrieved Resul
+RAG MEETS LLMS.pdf,42,2,ts Integration:
+RAG MEETS LLMS.pdf,42,3, Intermediate-l
+RAG MEETS LLMS.pdf,42,4,ayer Integratio
+RAG MEETS LLMS.pdf,42,5,nRegular Decoder 42
+RAG MEETS LLMS.pdf,43,1,With retrieved resultsDecoder to incorporate
+RAG MEETS LLMS.pdf,43,2, retrieved results (RETRO) Borgeaud et al. 2
+RAG MEETS LLMS.pdf,43,3,022. Improving Language Models by Retrieving
+RAG MEETS LLMS.pdf,43,4, from Trillions of Tokens43Retrieved Results
+RAG MEETS LLMS.pdf,43,5, Integration: Intermediate-layer Integration
+RAG MEETS LLMS.pdf,44,1,Encoded neighbors Pr
+RAG MEETS LLMS.pdf,44,2,evious layer output 
+RAG MEETS LLMS.pdf,44,3,44Retrieved Results 
+RAG MEETS LLMS.pdf,44,4,Integration: Interme
+RAG MEETS LLMS.pdf,44,5,diate-layer Integration
+RAG MEETS LLMS.pdf,45,1,Encoded neighbors Previ
+RAG MEETS LLMS.pdf,45,2,ous layer outputNext la
+RAG MEETS LLMS.pdf,45,3,yer input45Retrieved Re
+RAG MEETS LLMS.pdf,45,4,sults Integration: Inte
+RAG MEETS LLMS.pdf,45,5,rmediate-layer Integration
+RAG MEETS LLMS.pdf,46,1,46Website of this tutorial ¡RA-LLM architec
+RAG MEETS LLMS.pdf,46,2,ture overview¡Retriever in RA-LLMs¡Retrieva
+RAG MEETS LLMS.pdf,46,3,l results integration¡Pre/Post-retrieval te
+RAG MEETS LLMS.pdf,46,4,chniques¡Special RA-LLM paradigmsPART 2: Ar
+RAG MEETS LLMS.pdf,46,5,chitecture of RA-LLMs and Main ModulesSlides
+RAG MEETS LLMS.pdf,47,1,Pre/Post-Retrieval TechniquesRetrieval GenerationPre-retri
+RAG MEETS LLMS.pdf,47,2,eval process: to improve the adaptation and effectiveness 
+RAG MEETS LLMS.pdf,47,3,of the queryPost-retrieval process: to select better resul
+RAG MEETS LLMS.pdf,47,4,"ts, merge multiple ones, etc•Query rewriting•Query decompo"
+RAG MEETS LLMS.pdf,47,5,sition•Query expansion•Re-ranking•Compression•Correction47
+RAG MEETS LLMS.pdf,48,1,Pre-Retrieval Techniques Wang et al. 
+RAG MEETS LLMS.pdf,48,2,2023. “Query rewriting for retrieval-
+RAG MEETS LLMS.pdf,48,3,augmented large language models” Work
+RAG MEETS LLMS.pdf,48,4,s on different QA settingsqQueryRewri
+RAG MEETS LLMS.pdf,48,5,ting:toimprovetheadaptationofthequery 48
+RAG MEETS LLMS.pdf,49,1,Pre-Retrieval Techniques Gao et al. 2022. “Precise zer
+RAG MEETS LLMS.pdf,49,2,o-shot dense retrieval without relevance labels” 1. Ge
+RAG MEETS LLMS.pdf,49,3,nerative taskQuery 2. Document-document similarity tas
+RAG MEETS LLMS.pdf,49,4,k Standard searchHyDESearch Results Query LLM answers 
+RAG MEETS LLMS.pdf,49,5,Results Search qHyDE:HypotheticalDocumentEmbeddings 49
+RAG MEETS LLMS.pdf,50,1,Pre-Retrieval Techniques Wang et al. 2023
+RAG MEETS LLMS.pdf,50,2,. ”Query2doc: Query Expansion with Large 
+RAG MEETS LLMS.pdf,50,3,Language Models”Works for both sparse and
+RAG MEETS LLMS.pdf,50,4, dense retrieversqQueryExpansion 50 New q
+RAG MEETS LLMS.pdf,50,5,uery = original query + generated documents
+RAG MEETS LLMS.pdf,51,1,"Post-Retrieval Techniques Glass et al. 2022. “Re2G: Retrieve, Rerank, G"
+RAG MEETS LLMS.pdf,51,2,enerate” Regular RAG pipelineRAG with RerankerqRetrieved Result Rerank(
+RAG MEETS LLMS.pdf,51,3,Re2G)vResults from initial retrieval can be greatly improved through th
+RAG MEETS LLMS.pdf,51,4,e use of a rerankervRerankerallows merging retrieval results from sourc
+RAG MEETS LLMS.pdf,51,5,"es with incomparable scores, e.g., BM25 and neural initial retrieval 51"
+RAG MEETS LLMS.pdf,52,1,Retrieved Result Rerank(Re2G) Mo
+RAG MEETS LLMS.pdf,52,2,del qReranker: interaction model
+RAG MEETS LLMS.pdf,52,3, basedon the sequence-pair class
+RAG MEETS LLMS.pdf,52,4,"ification Nogueira and Cho, 2019"
+RAG MEETS LLMS.pdf,52,5,", Passage Re-ranking with BERT52"
+RAG MEETS LLMS.pdf,53,1,Retrieved Result Rerank(Re2G) P
+RAG MEETS LLMS.pdf,53,2,erformance Significantly outper
+RAG MEETS LLMS.pdf,53,3,forms pipelines without the Rer
+RAG MEETS LLMS.pdf,53,4,ankstageGlass et al. 2022. “Re2
+RAG MEETS LLMS.pdf,53,5,"G: Retrieve, Rerank, Generate”53"
+RAG MEETS LLMS.pdf,54,1,Post-Retrieval Techniques Xu et al. 2023. “RECOMP: Improving retrieval-
+RAG MEETS LLMS.pdf,54,2,augmented LMs with context compression and selective augmentation” qRet
+RAG MEETS LLMS.pdf,54,3,rieved Result CompressionvTo reduce the computational costs and also re
+RAG MEETS LLMS.pdf,54,4,lieve the burden of LMs to identify relevant information in long retrie
+RAG MEETS LLMS.pdf,54,5,ved documents.qCompressor Learning ObjectivesvConcisevEffectivevFaithful54
+RAG MEETS LLMS.pdf,55,1,Retrieved Result Compression Performance Xu
+RAG MEETS LLMS.pdf,55,2, et al. 2023. “RECOMP: Improving retrieval-
+RAG MEETS LLMS.pdf,55,3,augmented LMs with context compression and 
+RAG MEETS LLMS.pdf,55,4,selective augmentation” Outperforms represe
+RAG MEETS LLMS.pdf,55,5,ntative sparse and dense retrieversqQA tasks 55
+RAG MEETS LLMS.pdf,56,1,Post-Retrieval Techniques
+RAG MEETS LLMS.pdf,56,2,: Corrective RAG qGrading
+RAG MEETS LLMS.pdf,56,3, and correcting Yan et al
+RAG MEETS LLMS.pdf,56,4,"., 2024, Corrective Retri"
+RAG MEETS LLMS.pdf,56,5,eval Augmented Generation56
+RAG MEETS LLMS.pdf,57,1,Post-Ret
+RAG MEETS LLMS.pdf,57,2,rieval T
+RAG MEETS LLMS.pdf,57,3,echnique
+RAG MEETS LLMS.pdf,57,4,s: Corre
+RAG MEETS LLMS.pdf,57,5,ctive RAG 57
+RAG MEETS LLMS.pdf,58,1,Post-Retrieval Techniques: RefinerqRefiner: leveraging a
+RAG MEETS LLMS.pdf,58,2, single decoder-only LLM to adaptively extract query rel
+RAG MEETS LLMS.pdf,58,3,evant contents verbatim along with the necessary context
+RAG MEETS LLMS.pdf,58,4," Li et al., 2024, Refiner: Restructure Retrieval Content"
+RAG MEETS LLMS.pdf,58,5, Efficiently to AdvanceQuestion-Answering Capabilities58
+RAG MEETS LLMS.pdf,59,1,59Website of this tutorial ¡RA-LLM architec
+RAG MEETS LLMS.pdf,59,2,ture overview¡Retriever in RA-LLMs¡Retrieva
+RAG MEETS LLMS.pdf,59,3,l results integration¡Pre/Post-retrieval te
+RAG MEETS LLMS.pdf,59,4,chniques¡Special RA-LLM paradigmsPART 2: Ar
+RAG MEETS LLMS.pdf,59,5,chitecture of RA-LLMs and Main ModulesSlides
+RAG MEETS LLMS.pdf,60,1,60 Retrieval Generation Pre-retriev
+RAG MEETS LLMS.pdf,60,2,al processPost-retrieval processInt
+RAG MEETS LLMS.pdf,60,3,egration”Which country won the Wome
+RAG MEETS LLMS.pdf,60,4,n’s World Cup 2023””Spain” Beyond S
+RAG MEETS LLMS.pdf,60,5,tandard Pipelines and Components? More?
+RAG MEETS LLMS.pdf,61,1,"Special RAG Pipeline: Self-Reflective RAG (SELF-RAG) AsaiA, et al."
+RAG MEETS LLMS.pdf,61,2,"2023. “Self-rag: Learning to retrieve, generate, and critique thro"
+RAG MEETS LLMS.pdf,61,3,ugh self-reflection”Input Retrieval Retrieved result integrationGe
+RAG MEETS LLMS.pdf,61,4,neration Retrieval-enhanced generation results are not necessarily
+RAG MEETS LLMS.pdf,61,5, useful or helpful !qGeneral Retrieval-Augmented Generation (RAG) 61
+RAG MEETS LLMS.pdf,62,1,SELF
+RAG MEETS LLMS.pdf,62,2,-RAG
+RAG MEETS LLMS.pdf,62,3, Ove
+RAG MEETS LLMS.pdf,62,4,rvie
+RAG MEETS LLMS.pdf,62,5,w 62
+RAG MEETS LLMS.pdf,63,1,Key Technical Design 
+RAG MEETS LLMS.pdf,63,2,in SELF-RAG qCritic M
+RAG MEETS LLMS.pdf,63,3,odel TrainingqFour ty
+RAG MEETS LLMS.pdf,63,4,pes of reflection tok
+RAG MEETS LLMS.pdf,63,5,ens used in SELF-RAG 63
+RAG MEETS LLMS.pdf,64,1,SELF
+RAG MEETS LLMS.pdf,64,2,-RAG
+RAG MEETS LLMS.pdf,64,3, Alg
+RAG MEETS LLMS.pdf,64,4,orit
+RAG MEETS LLMS.pdf,64,5,hm 64
+RAG MEETS LLMS.pdf,65,1,"Special RAG Pipeline: Recursively Answer Zhou, et al.2023. “Least-to-most prompting enables co"
+RAG MEETS LLMS.pdf,65,2,"mplex reasoning in large language models”Trivedi, et al. 2023. “Interleaving retrieval with ch"
+RAG MEETS LLMS.pdf,65,3,ain-of-thought reasoning for knowledge-intensive multi-step questions”qChain-of-Thought + RAGv
+RAG MEETS LLMS.pdf,65,4,One-step retrieve-and-read approach is insufficient for multi-step QAvWhat to retrieve depends
+RAG MEETS LLMS.pdf,65,5," on what has already been derived, which in tern may depend on what was previously retrieved 65"
+RAG MEETS LLMS.pdf,66,1,Interleaved Retrieval guided by Chai
+RAG MEETS LLMS.pdf,66,2,"n-of-Thought (IRCoT) Trivedi, et al."
+RAG MEETS LLMS.pdf,66,3, 2023. “Interleaving retrieval with 
+RAG MEETS LLMS.pdf,66,4,chain-of-thought reasoning for knowl
+RAG MEETS LLMS.pdf,66,5,edge-intensive multi-step questions” 66
+RAG MEETS LLMS.pdf,67,1,One-time Retr
+RAG MEETS LLMS.pdf,67,2,ievalIRCoTPer
+RAG MEETS LLMS.pdf,67,3,formanceqQA T
+RAG MEETS LLMS.pdf,67,4,askWithout Re
+RAG MEETS LLMS.pdf,67,5,trievalIRCoT 67
+RAG MEETS LLMS.pdf,68,1,¤Part 1: Introduction of Retrieval Augmented Large Language Models (RA-LLMs) (Dr.
+RAG MEETS LLMS.pdf,68,2, WenqiFan)¤Part 2: Architecture of RA-LLMs and Main Modules (Dr. YujuanDing)¤Part
+RAG MEETS LLMS.pdf,68,3, 3: Learning Approach of RA-LLMs (LiangboNing)¡Part 4: Applications ofRA-LLMs (Sh
+RAG MEETS LLMS.pdf,68,4,ijieWang)¡Part 5: Challenges and Future Directions of RA-LLMs (Dr. WenqiFan)Websi
+RAG MEETS LLMS.pdf,68,5,te of this tutorial Check out the slides and more information!69 Tutorial Outline
